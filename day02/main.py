@@ -30,6 +30,7 @@ def solve_part_2(reports):
                     is_valid = False
             if is_increasing and is_valid:
                 is_safe = True
+                break
         if is_safe:
             safe_reports += 1
     return safe_reports
