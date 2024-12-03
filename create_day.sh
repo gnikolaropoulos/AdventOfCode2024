@@ -1,4 +1,4 @@
-#!/bin/sh./
+#!/bin/sh
 
 if [ $# != 1 ]; then
     echo "Usage: $(basename "$0") <day-number>" >&2
