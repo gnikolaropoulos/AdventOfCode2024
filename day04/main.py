@@ -31,8 +31,8 @@ def solve_part_2(puzzle_input):
             corners = [
                 puzzle_input[row - 1][col - 1],
                 puzzle_input[row - 1][col + 1],
-                puzzle_input[row + 1][col - 1],
                 puzzle_input[row + 1][col + 1],
+                puzzle_input[row + 1][col - 1],
             ]
             corners_string = "".join(corners)
             if (
